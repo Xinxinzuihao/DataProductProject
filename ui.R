@@ -8,8 +8,8 @@ shinyUI(fluidPage(
       sidebarPanel(
         numericInput('GNP', 'GNP Value Input (Range 243-555)', 250, min = 234, max = 555),
         submitButton('Submit'),
-        p(strong(em("Documentation:",a("Longley's Economic Dataset",href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/longley.html"))))
-        #p(strong(em("Github repository:",a("Developing Data Products - Peer Assessment Project; Shiny App",href="https://github.com/CrazyFarang/DevelopingDataProducts"))))
+        p(strong(em("Documentation:",a("Longley's Economic Dataset",href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/longley.html")))),
+        p(strong(em("Github repository:",a("Github repository for Shiny App",href="https://github.com/Xinxinzuihao/DataProductProject"))))
         ), 
   
     #  
